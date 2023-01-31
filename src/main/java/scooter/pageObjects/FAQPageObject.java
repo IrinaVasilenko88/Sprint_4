@@ -1,11 +1,10 @@
-package scooter.PageObjects;
+package scooter.pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class FAQPageObject {
     private WebDriver driver;
-
     //Сколько это стоит? И как оплатить?
     private final By howMuchAndHowToPay = By.xpath(".//*[contains(text(),'Сколько это стоит? И как оплатить?')]");
     //ответ на первый вопрос

@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import scooter.PageObjects.FAQPageObject;
+import scooter.pageObjects.FAQPageObject;
 
 import static org.junit.Assert.assertEquals;
 
@@ -41,7 +41,6 @@ public class FAQTest {
         driver.get("https://qa-scooter.praktikum-services.ru/");
     }
 
-
     @After
     public void teardown() {
         driver.quit();
@@ -60,7 +59,6 @@ public class FAQTest {
                 {"Я живу за МКАДом, привезёте?", "Да, обязательно. Всем самокатов! И Москве, и Московской области.", "Да, обязательно. Всем самокатов! И Москве, и Московской области."},
         };
     }
-
 
     @Test
     public void comparisonText() {

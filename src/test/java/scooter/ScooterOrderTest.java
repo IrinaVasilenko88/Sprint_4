@@ -53,7 +53,6 @@ public class ScooterOrderTest {
         driver.manage().deleteAllCookies();
     }
 
-
     @After
     public void teardown() {
         driver.quit();

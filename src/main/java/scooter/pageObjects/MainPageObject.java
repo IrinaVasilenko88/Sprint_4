@@ -1,4 +1,4 @@
-package scooter.PageObjects;
+package scooter.pageObjects;
 
 import org.openqa.selenium.By;
 
@@ -29,5 +29,4 @@ public class MainPageObject {
     private final By orderCancel = By.id("accordion__heading-14");
     //Я живу за МКАДом, привезёте?
     private final By outOfMoscowOrder = By.id("accordion__heading-15");
-
 }
